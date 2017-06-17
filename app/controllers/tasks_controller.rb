@@ -81,8 +81,7 @@ class TasksController < ApplicationController
                  :maximum_budget,
                  :country,
                  :task_category_id,
-                 :requester_id,
-                 :time_frame)
+                 :requester_id)
   end
 
   def check_for_user
